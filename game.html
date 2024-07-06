@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="icon" href="{% assets'mbc.png' %}" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif; /* Menggunakan font Roboto dari Google Fonts */
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .navbar {
+            margin-top: 20px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            color: #007bff; /* Warna biru saat hover */
+        }
+        .content {
+            padding: 20px;
+            font-size: 16px; /* Ukuran font untuk konten */
+        }
+        .content h3 {
+            font-size: 24px; /* Ukuran font untuk judul */
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: disc; /* Gaya bullets */
+            font-size: 18px; /* Ukuran font untuk poin */
+            margin-left: 20px; /* Margin kiri untuk indentasi poin */
+            margin-bottom: 20px; /* Margin bawah untuk pemisahan dengan paragraf */
+        }
+        ul li {
+            margin-bottom: 10px; /* Margin bawah antar poin */
+        }
+    </style>
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo">
+        <img src="assets/Logo mbc (1).png" alt="">
+    </a>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="Bigdata.html">Bigdata</a>
+        <a href="sc.html">Cybersecurity</a>
+        <a href="gis.html">GIS</a>
+        <a href="game.html">Game Tech</a>
+    </nav>
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+</header>
+<section class="about" id="about">
+    <div class="row">
+        <div class="title">
+            <h3>Devisi</h3>
+        </div>
+        <div class="content">
+            <h3>game technology</h3>
+            <p>Devisi Game Technology bertujuan untuk memimpin pengembangan teknologi dan infrastruktur yang diperlukan untuk menciptakan permainan yang inovatif, menarik, dan sesuai dengan kebutuhan pasar yang terus berkembang. Game Technology bertanggung jawab untuk:</p>
+            <ul>
+                <li>Pengembangan Game: Ini mencakup semua aspek yang terkait dengan menciptakan dan mengembangkan permainan, baik dari segi desain, pemrograman, hingga pengujian.</li>
+                <li>Infrastruktur Teknologi: Menyediakan dan memelihara infrastruktur teknologi yang diperlukan untuk pengembangan permainan, seperti platform perangkat keras dan perangkat lunak yang mendukung.</li>
+                <li>Meningkatkan Teknologi: Fokus pada penelitian dan pengembangan teknologi baru atau peningkatan teknologi yang ada untuk mendukung pengembangan permainan yang lebih baik dan lebih canggih.</li>
+                <li>Mendukung Pengembang: Memberikan dukungan teknis dan sumber daya kepada pengembang permainan dalam organisasi untuk memastikan kelancaran proses pengembangan.</li>
+                <li>Inovasi: Mengintegrasikan inovasi teknologi terbaru, seperti kecerdasan buatan, realitas virtual atau augmented, dan teknologi lainnya ke dalam pengembangan permainan.</li>
+                <li>Kualitas dan Performa: Memastikan bahwa semua permainan yang dikembangkan memenuhi standar kualitas yang tinggi dalam hal gameplay, grafis, dan performa secara keseluruhan.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+</body>
+</html>

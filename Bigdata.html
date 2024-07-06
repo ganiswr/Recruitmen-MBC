@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<body>
+    <link rel="icon" href="{% assets'mbc.png' %}" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Font Awesome dari CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+<!--Header secttion starts-->
+<header class="header">
+    <a href="#" class="logo">
+        <img src="assets/Logo mbc (1).png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="Bigdata.html">Bigdata</a>
+        <a href="sc.html">Cybersecurity</a>
+        <a href="gis.html">GIS</a>
+        <a href="game.html">Game Tech</a>
+
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+</header>
+
+<section class="about" id="about">
+    <div class="row">
+        <div class="title">
+            <h3>Devisi</h3>
+        </div>
+        <div class="content">
+            <h3>Big Data</h3>
+            <p>Big data adalah konsep yang mengacu pada kumpulan data yang sangat besar dan
+                kompleks yang sulit atau bahkan tidak mungkin untuk dikelola menggunakan alat
+                pengolahan data konvensional. Istilah "big data" tidak hanya menyoroti ukuran data, tetapi
+                juga menekankan pada volume, kecepatan, dan keragaman data yang perlu dianalisis.
+                Konsep ini sering dijelaskan dalam tiga dimensi utama, dikenal sebagai 3V: volume,
+                velocity, dan variety. Volume menggambarkan jumlah data yang dihasilkan, velocity
+                mengacu pada kecepatan pembangkitan dan pembaruan data, sedangkan variety
+                menunjukkan keragaman tipe data yang ada. Selain itu, ada dimensi tambahan seperti
+                veracity, value, dan variability yang juga menjadi perhatian dalam analisis big data. Untuk
+                mengelola dan menganalisis big data, digunakan teknologi dan alat khusus seperti sistem
+                penyimpanan terdistribusi dan komputasi terdistribusi. Dengan analisis yang tepat, big
+                data memiliki potensi untuk memberikan wawasan yang berharga dalam berbagai bidang
+                seperti bisnis, ilmu pengetahuan, dan kesehatan.
+                </p>
+        </div>
+    
+    </div>
+</section>
+</body>
+</html>

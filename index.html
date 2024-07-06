@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBC Laboratory</title>
+    <link rel="icon" href="{% assets'mbc.png' %}" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Font Awesome dari CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+<!--Header secttion starts-->
+<header class="header">
+    <a href="#" class="logo">
+        <img src="assets/Logo mbc (1).png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#devisi">Devisi</a>
+        <a href="#contact">Contact</a>
+        <a href="#developer">Developer</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+</header>
+<!--header section ends-->
+
+<!--home section starts-->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Selamat Datang di Website Multimedia Application, Big Data & Cybersecurity Laboratory</h3>
+    </div>
+</section>
+<!--home section ends-->
+
+<!--about us section starts-->
+<section class="about" id="about">
+    <div class="row">
+        <div class="title">
+            <h3>ABOUT US</h3>
+        </div>
+        <div class="image">
+            <img src="assets/AU.png" alt="">
+        </div>
+        <div class="content">
+            <h3>MBC Laboratory</h3>
+            <p>Sebuah Pusat Riset teknologi dan sebuah Perusahaan yang
+                bergerak di bidang Konsultan Cybersecurity, Big Data, Game Technology, dan
+                Geographic Information System.</p>
+            <a href="readmore.html" class="btn">Read more</a>
+        </div>
+    
+    </div>
+</section>
+<!--about us section ends-->
+
+
+<!--Devisi Section Starts-->
+<section class="devisi" id="devisi">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+    <div class="konten swiper-slide">
+        <img src="assets/bigdatafix.png" alt="" class="">
+    <div class="text-konten">
+        <h3>Big Data</h3>
+        <p>Divisi Big Data dalam sebuah organisasi atau perusahaan adalah bagian yang khusus bertanggung jawab atas manajemen, analisis, dan pemanfaatan data dalam skala besar.</p>
+        <a href="Bigdata.html" class="btn">Read more</a>
+    </div>
+</div>
+
+    <div class="konten swiper-slide">
+        <img src="assets/cyber.png" alt="" class="">
+    <div class="text-konten">
+        <h3>Cybersecurity</h3>
+        <p>Devisi Cyber security (keamanan cyber) merujuk pada praktik, teknologi, dan proses yang dirancang untuk melindungi sistem komputer, jaringan, perangkat, dan data dari serangan atau akses yang tidak sah.</p>
+        <a href="sc.html" class="btn">Read more</a>
+    </div>
+</div>
+
+    <div class="konten swiper-slide">
+        <img src="assets/gametech.png" alt="" class="">
+    <div class="text-konten">
+        <h3>Game Technology</h3>
+        <p>Devisi Game Tech atau Game Technology bertanggung jawab untuk mengembangkan, mendukung, dan meningkatkan teknologi serta infrastruktur yang digunakan untuk pengembangan permainan.</p>
+        <a href="game.html" class="btn">Read more</a>
+    </div>
+</div>
+
+    <div class="konten swiper-slide">
+        <img src="assets/gis.png" alt="" class="">
+    <div class="text-konten">
+        <h3>Geographical Information System</h3>
+        <p>Devisi Geographical Information System (GIS) berfokus pada aplikasi mobile dan ui/ux, pemodelan karakter 3D dan augmented reality, serta remote sensing.</p>
+        <a href="gis.html" class="btn">Read more</a>
+    </div>
+
+</div>
+</div>
+swipe>>>
+</div>
+</section>
+<!--Devisi Section Ends-->
+
+
+<!--contact section starts-->
+<section class="contact" id="contact">
+    <div class="contact-section">
+        <div class="contact-info">
+            <div><a href="https://maps.app.goo.gl/ZHy6grQQdEwn1NUT8" target="_blank"><i class="fas fa-map-marker-alt"></i>TULT 13.04-TULT 11.12, Telkom University, Bandung</a></div>
+            <div><i class="fas fa-envelope"></i>mbclab1234@gmail.com</div>
+            <div><a href="https://www.instagram.com/mbclab?igsh=bzB1M3luOXlyM2I4" target="_blank"><i class="fab fa-instagram"></i>@mbclab</a></div>
+            <div><i class="fa-brands fa-line"></i>@sok8073r</div>
+            <div><i class="fas fa-phone"></i>+61 123-4567-8910</div>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST">
+                <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <input type="submit" name="submit" class="send-btn" value="Send">
+            </form>
+        </div>
+    </div>
+</section>
+<!--contact section ends-->
+
+<!--Developer section starts-->
+<section class="developer" id="developer">
+    <div class="box">
+        <img src="assets/profile.jpg" alt="" class="box-img">
+        <h1>Ganis Widya Renata</h1>
+        <h5>-Telecomunication Engineering Student-</h5>
+        <p>
+            mahasiswa Telkom University aktif di Fakultas Teknik Elektro, Program Studi S1 Teknik Telekomunikasi, dengan semangat dan minat yang kuat dalam mengikuti perkembangan teknologi.
+        </p>
+        <ul>
+            <li><a href="https://www.instagram.com/ganis_wr?igsh=Znp0NGN4YWNtdTNt" target="_blank"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/ganiswr/" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+</section>
+<!--Developer Section ends-->
+
+
+<!--custom js file link-->
+<script src="scripts.js"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+    </script>
+</body>
+</html>

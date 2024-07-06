@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="icon" href="{% assets'mbc.png' %}" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Roboto', sans-serif; /* Menggunakan font Roboto dari Google Fonts */
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .navbar {
+            margin-top: 20px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            color: #007bff; /* Warna biru saat hover */
+        }
+        .content {
+            padding: 20px;
+            font-size: 16px; /* Ukuran font untuk konten */
+        }
+        .content h3 {
+            font-size: 24px; /* Ukuran font untuk judul */
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: disc; /* Gaya bullets */
+            font-size: 18px; /* Ukuran font untuk poin */
+            margin-left: 20px; /* Margin kiri untuk indentasi poin */
+            margin-bottom: 20px; /* Margin bawah untuk pemisahan dengan paragraf */
+        }
+        ul li {
+            margin-bottom: 10px; /* Margin bawah antar poin */
+        }
+    </style>
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo">
+        <img src="assets/Logo mbc (1).png" alt="">
+    </a>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="Bigdata.html">Bigdata</a>
+        <a href="sc.html">Cybersecurity</a>
+        <a href="gis.html">GIS</a>
+        <a href="game.html">Game Tech</a>
+    </nav>
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+</header>
+
+<section class="about" id="about">
+    <div class="row">
+        <div class="title">
+            <h3>Devisi</h3>
+        </div>
+        <div class="content">
+            <h3>Geographical Information System</h3>
+            <p>BArcGIS adalah sebuah platform perangkat lunak yang dikembangkan oleh
+                perusahaan Esri (Environmental Systems Research Institute), yang digunakan untuk
+                membuat, mengelola, menganalisis, dan memvisualisasikan data geografis atau
+                geospasial. Platform ini digunakan dalam berbagai bidang seperti pemetaan, analisis
+                lingkungan, perencanaan kota, manajemen sumber daya alam, mitigasi bencana, dan
+                masih banyak lagi.
+            </p>
+            <p>Fungsi dari ArcGIS mencakup beberapa hal:</p>
+            <ul>
+                <li>Pemetaan: ArcGIS memungkinkan pengguna untuk membuat peta digital dari berbagai jenis data, seperti data vektor (titik, garis, poligon) dan data raster (gambar berpiksel). Ini memungkinkan representasi visual dari informasi geografis.</li>
+                <li>Analisis Spasial: Platform ini menyediakan berbagai alat untuk menganalisis data geografis. Contohnya termasuk analisis jarak, overlay layer, analisis kecenderungan spasial, dan lain-lain.</li>
+                <li>Manajemen Data: ArcGIS memungkinkan pengguna untuk menyimpan, mengatur, dan mengelola data geografis dalam berbagai format.</li>
+                <li>Visualisasi: ArcGIS menyediakan berbagai alat untuk memvisualisasikan data geografis dalam bentuk peta, grafik, dan tata letak yang dapat dimengerti dengan mudah.</li>
+                <li>Kolaborasi: ArcGIS memfasilitasi kolaborasi antara pengguna dalam pengembangan proyek, pertukaran data, dan pembuatan keputusan berbasis lokasi.</li>
+                <li>Pengembangan Aplikasi: ArcGIS menyediakan platform untuk pengembangan aplikasi berbasis lokasi yang dapat disesuaikan sesuai kebutuhan.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+</body>
+</html>
